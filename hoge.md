@@ -110,91 +110,91 @@
 
 1. 【実習2】は、【実習1】で検索した実験データセット[GSE28619](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE28619)の画面からスタートします。
 
-[![Gyazo](http://i.gyazo.com/cb03a01a98511be4c83e7ee7965b09f4.png)](http://gyazo.com/cb03a01a98511be4c83e7ee7965b09f4)
+ [![Gyazo](http://i.gyazo.com/cb03a01a98511be4c83e7ee7965b09f4.png)](http://gyazo.com/cb03a01a98511be4c83e7ee7965b09f4)
 
 2. ページ下部の「Analyze with GEO2R」をクリックし、GEO2Rのページに移動します。
 
-[![Gyazo](http://i.gyazo.com/020666a58df1903d5532f62ffd9cf5f7.png)](http://gyazo.com/020666a58df1903d5532f62ffd9cf5f7)
+ [![Gyazo](http://i.gyazo.com/020666a58df1903d5532f62ffd9cf5f7.png)](http://gyazo.com/020666a58df1903d5532f62ffd9cf5f7)
 
 3. このデータセットに含まれるサンプルの一覧が表示されます。列見出しをクリックすると各項目でソートできます。今回のデータセットが、健常者 7名・アルコール肝炎患者 15名から得られたサンプルであることがわかります。
 
-[![Gyazo](http://i.gyazo.com/ad82f7f81091ab7cf300fdba8819bf96.png)](http://gyazo.com/ad82f7f81091ab7cf300fdba8819bf96)
+ [![Gyazo](http://i.gyazo.com/ad82f7f81091ab7cf300fdba8819bf96.png)](http://gyazo.com/ad82f7f81091ab7cf300fdba8819bf96)
 
-8. 比較したいグループを設定します。「Define groups」をクリックして、それぞれのグループ名を入力します。今回は、健常者（Control）とアルコール肝炎患者（Alcoholic Hepatitis）のサンプルをそれぞれグループ化します。
+4. 比較したいグループを設定します。「Define groups」をクリックして、それぞれのグループ名を入力します。今回は、健常者（Control）とアルコール肝炎患者（Alcoholic Hepatitis）のサンプルをそれぞれグループ化します。
 
-[![Gyazo](http://i.gyazo.com/c0ffdfee96f01a4f6bac24231fa35b7c.png)](http://gyazo.com/c0ffdfee96f01a4f6bac24231fa35b7c)
+ [![Gyazo](http://i.gyazo.com/c0ffdfee96f01a4f6bac24231fa35b7c.png)](http://gyazo.com/c0ffdfee96f01a4f6bac24231fa35b7c)
 
-9. グループに入れたいサンプルをクリックやドラッグで選択してからグループ名をクリックすると、サンプルがグループに登録されます。
+5. グループに入れたいサンプルをクリックやドラッグで選択してからグループ名をクリックすると、サンプルがグループに登録されます。
 
-[![Gyazo](http://i.gyazo.com/2b18becb49fedce34278863171cfccf6.png)](http://gyazo.com/2b18becb49fedce34278863171cfccf6)
+ [![Gyazo](http://i.gyazo.com/2b18becb49fedce34278863171cfccf6.png)](http://gyazo.com/2b18becb49fedce34278863171cfccf6)
 
-10. 「Samples」をクリックして、サンプル画面を閉じます。「Value distribution」タブを選択し、「View」をクリックすると各サンプルの発現分布を調べることができます。（※ GEO2R では、投稿された生のデータを用いて解析されます。ジョブの実行は時間がかかるので要注意！講師のPC画面で実演します。）
+6. 「Samples」をクリックして、サンプル画面を閉じます。「Value distribution」タブを選択し、「View」をクリックすると各サンプルの発現分布を調べることができます。（※ GEO2R では、投稿された生のデータを用いて解析されます。ジョブの実行は時間がかかるので要注意！講師のPC画面で実演します。）
 
-[![Gyazo](http://i.gyazo.com/092c364b3f1234f66fabea4c15083081.png)](http://gyazo.com/092c364b3f1234f66fabea4c15083081)
+ [![Gyazo](http://i.gyazo.com/092c364b3f1234f66fabea4c15083081.png)](http://gyazo.com/092c364b3f1234f66fabea4c15083081)
 
-11. 発現分布が箱ひげ図で示されます。
+7. 発現分布が箱ひげ図で示されます。
 
-[![Gyazo](http://i.gyazo.com/703e9741efbda2813cb4d6db5a478ebb.png)](http://gyazo.com/703e9741efbda2813cb4d6db5a478ebb)
+ [![Gyazo](http://i.gyazo.com/703e9741efbda2813cb4d6db5a478ebb.png)](http://gyazo.com/703e9741efbda2813cb4d6db5a478ebb)
 
-12. 「Export」 をクリックすると、箱ひげ図で与えられている値をまとめたタブ区切りテキストが表示されます。（※講師のみ）
+8. 「Export」 をクリックすると、箱ひげ図で与えられている値をまとめたタブ区切りテキストが表示されます。（※講師のみ）
 
-[![Gyazo](http://i.gyazo.com/54d346c0f379392751bd7eaea880f947.png)](http://gyazo.com/54d346c0f379392751bd7eaea880f947)
+ [![Gyazo](http://i.gyazo.com/54d346c0f379392751bd7eaea880f947.png)](http://gyazo.com/54d346c0f379392751bd7eaea880f947)
 
-13. GEO2R タブに戻り、「Top 250」をクリックすると、選択したグループ間で各遺伝子の発現量に差があるかどうか統計解析されます。（※講師のみ）
+9. GEO2R タブに戻り、「Top 250」をクリックすると、選択したグループ間で各遺伝子の発現量に差があるかどうか統計解析されます。（※講師のみ）
 
-[![Gyazo](http://i.gyazo.com/a366350fc4069c2a5f77bf2e5c01df4a.png)](http://gyazo.com/a366350fc4069c2a5f77bf2e5c01df4a)
+ [![Gyazo](http://i.gyazo.com/a366350fc4069c2a5f77bf2e5c01df4a.png)](http://gyazo.com/a366350fc4069c2a5f77bf2e5c01df4a)
 
-13. 結果が表示されました。t 検定の結果が P 値の小さい順に 250 件表示されます。
+10. 結果が表示されました。t 検定の結果が P 値の小さい順に 250 件表示されます。
 
-[![Gyazo](http://i.gyazo.com/3ed4c71eb46333b0c00b2328642902a3.png)](http://gyazo.com/3ed4c71eb46333b0c00b2328642902a3)
+ [![Gyazo](http://i.gyazo.com/3ed4c71eb46333b0c00b2328642902a3.png)](http://gyazo.com/3ed4c71eb46333b0c00b2328642902a3)
 
 "P.Value" は元の P 値、"adj.P.Val" は多重検定の補正をかけた後の P 値です。有意性の評価は adj.P.Val に基づいています。 "t" は普通の t の標準偏差を全遺伝子の標準偏差を用いて調整したもの (moderated-t) です。普通の t より精度が上がっていますが、普通の t 分布に従うものとして扱えます。 "B" は2つのグループで発現量が異なっている対数オッズ値です。exp(B)/(1+exp(B)) の値が、発現量が異なっている確率です。"logFC" は、発現量の差が何倍であるかを2底の対数にしたものです。つまり値が 2 なら 4 倍の差を示しています。ここでの解析では発現量が対数で与えられている必要がありますが、元のデータでは対数になっていないことがあります。そのような場合デフォルトでは自動検出し、対数変換して計算してくれます。その上でこのような表示がされます。
 
 
-14. 行をクリックすると、その行の遺伝子の各サンプルでの発現量グラフが見られます。
-15. 今回は健常者・アルコール肝炎患者の間で最も差が大きいとされた遺伝子である AKR1B10（アルドケト還元酵素ファミリーの一つ）について見てみましょう。AKR1B10 は、アルコール肝炎患者で有意に発現が高いことがわかります。
+11. 行をクリックすると、その行の遺伝子の各サンプルでの発現量グラフが見られます。
+12. 今回は健常者・アルコール肝炎患者の間で最も差が大きいとされた遺伝子である AKR1B10（アルドケト還元酵素ファミリーの一つ）について見てみましょう。AKR1B10 は、アルコール肝炎患者で有意に発現が高いことがわかります。
 
- [![Gyazo](http://i.gyazo.com/ae49254bb7651c7a940526255add19ce.png)](http://gyazo.com/ae49254bb7651c7a940526255add19ce)
+  [![Gyazo](http://i.gyazo.com/ae49254bb7651c7a940526255add19ce.png)](http://gyazo.com/ae49254bb7651c7a940526255add19ce)
 
-16. また、2番目に差が大きいとされた遺伝子である SLC16A10（SLCトランスポーターの一つ）は、アルコール肝炎患者で有意に発現が低いことがわかります。
+13. また、2番目に差が大きいとされた遺伝子である SLC16A10（SLCトランスポーターの一つ）は、アルコール肝炎患者で有意に発現が低いことがわかります。
 
- [![Gyazo](http://i.gyazo.com/b956e24351811866ccdec210a91892b3.png)](http://gyazo.com/b956e24351811866ccdec210a91892b3)
+  [![Gyazo](http://i.gyazo.com/b956e24351811866ccdec210a91892b3.png)](http://gyazo.com/b956e24351811866ccdec210a91892b3)
 
-16. 「Sample values」 をクリックすると、発現量の値が一覧できます。
+14. 「Sample values」 をクリックすると、発現量の値が一覧できます。
 
-[![Gyazo](http://i.gyazo.com/cd38113a2f33785a697a77a2d89b1271.png)](http://gyazo.com/cd38113a2f33785a697a77a2d89b1271)
+ [![Gyazo](http://i.gyazo.com/cd38113a2f33785a697a77a2d89b1271.png)](http://gyazo.com/cd38113a2f33785a697a77a2d89b1271)
 
-17. 「Select columns」 をクリックすると、表示するカラムを変更できます。 "t-statistic"と"B-value" を消し "GO:Process" を追加してみましょう。設定を変更したら、「Set」をクリックします。
+15. 「Select columns」 をクリックすると、表示するカラムを変更できます。 "t-statistic"と"B-value" を消し "GO:Process" を追加してみましょう。設定を変更したら、「Set」をクリックします。
 
-[![Gyazo](http://i.gyazo.com/e542c7444cf0a59190f4b4fbf155ffd7.png)](http://gyazo.com/e542c7444cf0a59190f4b4fbf155ffd7)
+ [![Gyazo](http://i.gyazo.com/e542c7444cf0a59190f4b4fbf155ffd7.png)](http://gyazo.com/e542c7444cf0a59190f4b4fbf155ffd7)
 
-18. 表示するカラムを変更できました。
+16. 表示するカラムを変更できました。
 
-[![Gyazo](http://i.gyazo.com/d92baab7929e59246bf9047cbebec466.png)](http://gyazo.com/d92baab7929e59246bf9047cbebec466)
+ [![Gyazo](http://i.gyazo.com/d92baab7929e59246bf9047cbebec466.png)](http://gyazo.com/d92baab7929e59246bf9047cbebec466)
 
-18. 「Save all results」 をクリックすると、結果をテキストで表示・保存できます。
+17. 「Save all results」 をクリックすると、結果をテキストで表示・保存できます。
 
-[![Gyazo](http://i.gyazo.com/62d32077159a1e775ccd6e1e73ea82f7.png)](http://gyazo.com/62d32077159a1e775ccd6e1e73ea82f7)
+ [![Gyazo](http://i.gyazo.com/62d32077159a1e775ccd6e1e73ea82f7.png)](http://gyazo.com/62d32077159a1e775ccd6e1e73ea82f7)
 
-19. Options タブをクリックすると、いくつかの設定を変更できます。左の項目は多重検定の補正法の選択です。デフォルトでは Benjamini & Hochberg の方法が使われています。中央はデータの対数をとるかどうかの選択です。デフォルトでは自動検出で対数になります。右の項目はプラットフォームの注釈の選択です。"NCBI generated" がある場合はそれの方が信頼できます。
+18. Options タブをクリックすると、いくつかの設定を変更できます。左の項目は多重検定の補正法の選択です。デフォルトでは Benjamini & Hochberg の方法が使われています。中央はデータの対数をとるかどうかの選択です。デフォルトでは自動検出で対数になります。右の項目はプラットフォームの注釈の選択です。"NCBI generated" がある場合はそれの方が信頼できます。
 
-[![Gyazo](http://i.gyazo.com/85b9e41924f0ad20d9e15a922a61987f.png)](http://gyazo.com/85b9e41924f0ad20d9e15a922a61987f)
+ [![Gyazo](http://i.gyazo.com/85b9e41924f0ad20d9e15a922a61987f.png)](http://gyazo.com/85b9e41924f0ad20d9e15a922a61987f)
 
-20. Options に変更を加えたら、GEO2R タブに戻って 「Recalculate」 をクリックします。（※ 今回は実行しません。）
+19. Options に変更を加えたら、GEO2R タブに戻って 「Recalculate」 をクリックします。（※ 今回は実行しません。）
 
-[![Gyazo](http://i.gyazo.com/4bbc1ffff2f88145c4bf25d6f3452d3d.png)](http://gyazo.com/4bbc1ffff2f88145c4bf25d6f3452d3d)
+ [![Gyazo](http://i.gyazo.com/4bbc1ffff2f88145c4bf25d6f3452d3d.png)](http://gyazo.com/4bbc1ffff2f88145c4bf25d6f3452d3d)
 
-21. Profile graph の項目では、プローブ ID を元に、個々の遺伝子の発現状況を調べることができます。Enter ID の窓にプローブ ID をコピペし、「Set」をクリックすると発現量のグラフが表示されます。今回は例として、"ALDH2"（アルデヒド脱水素酵素のアイソザイム）のプローブ ID "201425_at" を検索してみましょう。
+20. Profile graph の項目では、プローブ ID を元に、個々の遺伝子の発現状況を調べることができます。Enter ID の窓にプローブ ID をコピペし、「Set」をクリックすると発現量のグラフが表示されます。今回は例として、"ALDH2"（アルデヒド脱水素酵素のアイソザイム）のプローブ ID "201425_at" を検索してみましょう。
 
 [![Gyazo](http://i.gyazo.com/f3cfe393c8c171668c033dc8e14ea44d.png)](http://gyazo.com/f3cfe393c8c171668c033dc8e14ea44d)
 
 22. 健常者の方がアルコール肝炎患者よりも "ALDH2" の発現量に高い傾向がみられました。（この操作では何の計算も実行されないので、検定の結果の P 値を調べることはできません。）
 
-[![Gyazo](http://i.gyazo.com/541c26af2297c69cefd343972960763b.png)](http://gyazo.com/541c26af2297c69cefd343972960763b)
+ [![Gyazo](http://i.gyazo.com/541c26af2297c69cefd343972960763b.png)](http://gyazo.com/541c26af2297c69cefd343972960763b)
 
-24. R script タブをクリックすると、これまでに実際に実行された R のスクリプトを見ることができます。これを参考に、手元の R でパラメータを調整するなどして更なる解析を行うことができます。
+21. R script タブをクリックすると、これまでに実際に実行された R のスクリプトを見ることができます。これを参考に、手元の R でパラメータを調整するなどして更なる解析を行うことができます。
 
-[![Gyazo](http://i.gyazo.com/83c0194b675e1dab61102cea0abaf5be.png)](http://gyazo.com/83c0194b675e1dab61102cea0abaf5be)
+ [![Gyazo](http://i.gyazo.com/83c0194b675e1dab61102cea0abaf5be.png)](http://gyazo.com/83c0194b675e1dab61102cea0abaf5be)
 
 - R の使い方については、下記の統合TV のコンテンツ「統計解析ソフト「R」の使い方」シリーズをご覧ください。
   - [統計解析ソフト「R」の使い方 ～導入編～](https://www.youtube.com/watch?v=xLZnDo9xE2g)
@@ -226,74 +226,74 @@
 
 1. 上部メニューの「Start Analysis」をクリックします。
 
- [![Gyazo](http://i.gyazo.com/dd857b29d9b70382ad81c314a5dbbed8.png)](http://gyazo.com/dd857b29d9b70382ad81c314a5dbbed8)
+  [![Gyazo](http://i.gyazo.com/dd857b29d9b70382ad81c314a5dbbed8.png)](http://gyazo.com/dd857b29d9b70382ad81c314a5dbbed8)
 
 2. 画面左側バーで、「健常者＞AH患者_遺伝子リスト」のprobe IDをコピペ or ファイルを選択します。
 
- [![Gyazo](http://i.gyazo.com/6805eef66646ac24747a172d511afab6.png)](http://gyazo.com/6805eef66646ac24747a172d511afab6)
+  [![Gyazo](http://i.gyazo.com/6805eef66646ac24747a172d511afab6.png)](http://gyazo.com/6805eef66646ac24747a172d511afab6)
 
 3. リストのIDの種類タイプを選択します。 … 今回は、"AFFYMETRIX_3PRIME_IVT_ID" と "Gene List" を選択します。
 4. Submit List をクリックするとリストが読み込まれます。
 
- [![Gyazo](http://i.gyazo.com/2b320b921e5c4854da042a74a93ebc8e.png)](http://gyazo.com/2b320b921e5c4854da042a74a93ebc8e)
+  [![Gyazo](http://i.gyazo.com/2b320b921e5c4854da042a74a93ebc8e.png)](http://gyazo.com/2b320b921e5c4854da042a74a93ebc8e)
 
 5. アップロードしたリストは、コピペの場合、左側バーの "List Manager"で "List_1" として保存されています。ファイル選択の場合、「GEO2R_Ctrl」としてファイル名が表示されます。リストの削除やファイル名の変更もできます。
 
- [![Gyazo](http://i.gyazo.com/b95fed01af26ab455ce66aef0def467e.png)](http://gyazo.com/b95fed01af26ab455ce66aef0def467e)
+  [![Gyazo](http://i.gyazo.com/b95fed01af26ab455ce66aef0def467e.png)](http://gyazo.com/b95fed01af26ab455ce66aef0def467e)
 
 6. バックグラウンドの種類タイプを選択します。 デフォルトでは "Homo sapiens" が設定されています。… 今回は、"Human Genome U133 plus 2 Array" を選択します。
 
- [![Gyazo](http://i.gyazo.com/30d5fd8654f482c00b71a4328e8eee2c.png)](http://gyazo.com/30d5fd8654f482c00b71a4328e8eee2c)
+  [![Gyazo](http://i.gyazo.com/30d5fd8654f482c00b71a4328e8eee2c.png)](http://gyazo.com/30d5fd8654f482c00b71a4328e8eee2c)
 
 7. バックグラウンドが変更されました。画面中央の「Functional Annotation Tool」をクリックします。
 
- [![Gyazo](http://i.gyazo.com/915313f2f422f7bfb36917f3f870dfb6.png)](http://gyazo.com/915313f2f422f7bfb36917f3f870dfb6)
+  [![Gyazo](http://i.gyazo.com/915313f2f422f7bfb36917f3f870dfb6.png)](http://gyazo.com/915313f2f422f7bfb36917f3f870dfb6)
 
 8. Functional Annotation Tool のページが表示されました。"Gene Ontology" だけでなく、さまざまなアノテーション情報からの解析を閲覧できます。
 
 9. 「Gene Ontology」をクリックすると、Gene Ontologyを用いた解析の細かいメニューが表示されます。
 
- [![Gyazo](http://i.gyazo.com/f8dea1e2599210e3968e6d950426b649.png)](http://gyazo.com/f8dea1e2599210e3968e6d950426b649)
+  [![Gyazo](http://i.gyazo.com/f8dea1e2599210e3968e6d950426b649.png)](http://gyazo.com/f8dea1e2599210e3968e6d950426b649)
 
 10. 今回は、GOTERM_BP_ALL（BP = Biological Process）に注目します。「Chart」をクリックすると結果がポップアップされます。 
 
- [![Gyazo](http://i.gyazo.com/02c93e0cb523a671ed2c4132308e7948.png)](http://gyazo.com/02c93e0cb523a671ed2c4132308e7948)
+  [![Gyazo](http://i.gyazo.com/02c93e0cb523a671ed2c4132308e7948.png)](http://gyazo.com/02c93e0cb523a671ed2c4132308e7948)
 
 11.  GOTERM_BP_ALL のチャートが表示されました。タイトル行をクリックするとソートできます。「Download File」をクリックすると、結果をテキストで表示できます。 
 
- [![Gyazo](http://i.gyazo.com/c1dbf94268b2c67fee3f8754a6a9d706.png)](http://gyazo.com/c1dbf94268b2c67fee3f8754a6a9d706) 
+  [![Gyazo](http://i.gyazo.com/c1dbf94268b2c67fee3f8754a6a9d706.png)](http://gyazo.com/c1dbf94268b2c67fee3f8754a6a9d706) 
  
 13. 解析結果が表示されました。テキストで保存することも可能です。
  
- [![Gyazo](http://i.gyazo.com/a685f6594364770d21fd07e71aa02ab0.png)](http://gyazo.com/a685f6594364770d21fd07e71aa02ab0)
+  [![Gyazo](http://i.gyazo.com/a685f6594364770d21fd07e71aa02ab0.png)](http://gyazo.com/a685f6594364770d21fd07e71aa02ab0)
 
 14. チャート画面の Genes の横棒グラフをクリックすると、GOTerm に関連する遺伝子のリストが表示されます。… 今回は、 "alcohol metabolic process" の遺伝子リストを見てみましょう。
 
- [![Gyazo](http://i.gyazo.com/d2b26438ab88368bbda515967ef0c5dc.png)](http://gyazo.com/d2b26438ab88368bbda515967ef0c5dc)
+  [![Gyazo](http://i.gyazo.com/d2b26438ab88368bbda515967ef0c5dc.png)](http://gyazo.com/d2b26438ab88368bbda515967ef0c5dc)
 
 15.  "alcohol metabolic process" の GOTerm に関連する遺伝子リストが表示されました。アップロードしたプローブ IDと、そのプローブに対応する遺伝子の名前がわかります。
 
- [![Gyazo](http://i.gyazo.com/bb6b9cd6a6abfe7a5358caed65cb530d.png)](http://gyazo.com/bb6b9cd6a6abfe7a5358caed65cb530d)
+  [![Gyazo](http://i.gyazo.com/bb6b9cd6a6abfe7a5358caed65cb530d.png)](http://gyazo.com/bb6b9cd6a6abfe7a5358caed65cb530d)
 
 16. さらに、GOTERM_CC_ALL（CC = Cellular Component）や GOTERM_MF_ALL（MF = Molecular Function）を見てみます。
  　
  - 結果：GOTERM_CC_ALL
  
- [![Gyazo](http://i.gyazo.com/1034eeff59f505117a4f916b2517404c.png)](http://gyazo.com/1034eeff59f505117a4f916b2517404c)
+  [![Gyazo](http://i.gyazo.com/1034eeff59f505117a4f916b2517404c.png)](http://gyazo.com/1034eeff59f505117a4f916b2517404c)
  
  - 結果：GOTERM_MF_ALL
    
- [![Gyazo](http://i.gyazo.com/b5c425ba2babe4a1b8289f187bb18ea1.png)](http://gyazo.com/b5c425ba2babe4a1b8289f187bb18ea1)
+  [![Gyazo](http://i.gyazo.com/b5c425ba2babe4a1b8289f187bb18ea1.png)](http://gyazo.com/b5c425ba2babe4a1b8289f187bb18ea1)
  
 17. Pathways > KEGG_PATHWAY や Tissue Expression > UP_TISSUE なども見てみましょう。
 18. 同様に、「AH患者＞健常者_遺伝子リスト」も解析してみましょう。 
 
 - 結果：GOTERM_BP_ALL
- [![Gyazo](http://i.gyazo.com/19b1cfa69b922d19949a18b936d65087.png)](http://gyazo.com/19b1cfa69b922d19949a18b936d65087)
+  [![Gyazo](http://i.gyazo.com/19b1cfa69b922d19949a18b936d65087.png)](http://gyazo.com/19b1cfa69b922d19949a18b936d65087)
 - 結果：GOTERM_CC_ALL
- [![Gyazo](http://i.gyazo.com/427fe77cd38330271831aa43319b9ba3.png)](http://gyazo.com/427fe77cd38330271831aa43319b9ba3)
+  [![Gyazo](http://i.gyazo.com/427fe77cd38330271831aa43319b9ba3.png)](http://gyazo.com/427fe77cd38330271831aa43319b9ba3)
 - 結果：GOTERM_MF_ALL
- [![Gyazo](http://i.gyazo.com/3081bcf0370882a4d39a851ce6626ffa.png)](http://gyazo.com/3081bcf0370882a4d39a851ce6626ffa)
+  [![Gyazo](http://i.gyazo.com/3081bcf0370882a4d39a851ce6626ffa.png)](http://gyazo.com/3081bcf0370882a4d39a851ce6626ffa)
  
 19. DAVIDで得られた結果を踏まえ、「健常者とアルコール性肝炎患者」の肝臓では、どのような違いがあるのか考察してみましょう。
 
