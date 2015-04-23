@@ -69,29 +69,29 @@
 
 4. Affymetrixのヒトのマイクロアレイの検索結果が表示されます。列見出しをクリックすると各項目でソートできます。表の中央にある「Samples」あるいは「Series」を2回クリックすると、登録されている実験データが多い順にソートされます。
 
-[![Gyazo](http://i.gyazo.com/7465f25b115b92b1b9195267b12f81b4.png)](http://gyazo.com/7465f25b115b92b1b9195267b12f81b4)
+ [![Gyazo](http://i.gyazo.com/7465f25b115b92b1b9195267b12f81b4.png)](http://gyazo.com/7465f25b115b92b1b9195267b12f81b4)
 
 5. [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array が最も多くデータが登録されているプラットホームであることがわかります。
 
 6. Series数"3855"をクリックすると、Filter に「platform: GPL570」が表示され、「Affymetrix Human Genome U133 Plus 2.0 Array」を用いた実験データのみが表示されます。
 
-[![Gyazo](http://i.gyazo.com/04945f061f2d38a3ba7c4954aa5a18f3.png)](http://gyazo.com/04945f061f2d38a3ba7c4954aa5a18f3)
+ [![Gyazo](http://i.gyazo.com/04945f061f2d38a3ba7c4954aa5a18f3.png)](http://gyazo.com/04945f061f2d38a3ba7c4954aa5a18f3)
 
 7. 今回は「アルコール性肝炎」に関連するデータを検索します。検索窓に「alcoholic hepatitis」を入力して、「Search」をクリックします。
 
-[![Gyazo](http://i.gyazo.com/1f7f7b8dd3a7f9f6ecdd5a032c0bec0f.png)](http://gyazo.com/1f7f7b8dd3a7f9f6ecdd5a032c0bec0f)
+ [![Gyazo](http://i.gyazo.com/1f7f7b8dd3a7f9f6ecdd5a032c0bec0f.png)](http://gyazo.com/1f7f7b8dd3a7f9f6ecdd5a032c0bec0f)
 
 8. GSE28619 - "Transcriptome Analysis Identifies Fn14, a TNF Superfamily Receptor Member, as a Therapeutic Target in Alcoholic Hepatitis"というデータセットが見つかりました。左端にある「GSE28619」をクリックすると、そのデータセットの詳細情報が閲覧できます。
 
-[![Gyazo](http://i.gyazo.com/7944ef43a7d9e4ec1edcbbf2de63bbb4.png)](http://gyazo.com/7944ef43a7d9e4ec1edcbbf2de63bbb4)
+ [![Gyazo](http://i.gyazo.com/7944ef43a7d9e4ec1edcbbf2de63bbb4.png)](http://gyazo.com/7944ef43a7d9e4ec1edcbbf2de63bbb4)
 
 10. ページ下部の「Download family」の中にある「Series Matrix File(s)」をクリックすると正規化済みのデータのダウンロードリンクが表示されます。
 
-[![Gyazo](http://i.gyazo.com/ccdb8f61750616ac60b0b9dac1950d75.png)](http://gyazo.com/ccdb8f61750616ac60b0b9dac1950d75)
+ [![Gyazo](http://i.gyazo.com/ccdb8f61750616ac60b0b9dac1950d75.png)](http://gyazo.com/ccdb8f61750616ac60b0b9dac1950d75)
 
 11. ページ最下部の「Supplementary file」にあるリンクから生データをダウンロードすることができます。
 
-[![Gyazo](http://i.gyazo.com/4ef19d932765325d496ffaaa7b13150e.png)](http://gyazo.com/4ef19d932765325d496ffaaa7b13150e)
+ [![Gyazo](http://i.gyazo.com/4ef19d932765325d496ffaaa7b13150e.png)](http://gyazo.com/4ef19d932765325d496ffaaa7b13150e)
 
 12. 自分の研究テーマに近い、また興味のあるマイクロアレイデータが利用可能か検索してみましょう。
 
