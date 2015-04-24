@@ -63,7 +63,7 @@
 
  [![Gyazo](http://i.gyazo.com/218923e07e6572379e2f4b827f63b67f.png)](http://gyazo.com/218923e07e6572379e2f4b827f63b67f)
  
-3. platformの検索画面が現れるので、「Manufacturer」に "Affymetrix"、「organism」に "Homo sapiens"  を選択し、「OK」をクリックします。
+3. Platformの検索画面が現れるので、「Manufacturer」に "Affymetrix"、「organism」に "Homo sapiens"  を選択し、「OK」をクリックします。
 
  [![Gyazo](http://i.gyazo.com/7f0df6b2e1f43be6a266ba072a5ac6e4.png)](http://gyazo.com/7f0df6b2e1f43be6a266ba072a5ac6e4)
 
