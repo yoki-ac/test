@@ -63,7 +63,7 @@
 
  [![Gyazo](http://i.gyazo.com/218923e07e6572379e2f4b827f63b67f.png)](http://gyazo.com/218923e07e6572379e2f4b827f63b67f)
  
-3. platformの検索画面が現れるので、「Manufacturer」に「Affymetrix」、「organism」に「Homo sapiens」を選択し、「OK」をクリックします。
+3. platformの検索画面が現れるので、「Manufacturer」に "Affymetrix"、「organism」に "Homo sapiens"  を選択し、「OK」をクリックします。
 
  [![Gyazo](http://i.gyazo.com/7f0df6b2e1f43be6a266ba072a5ac6e4.png)](http://gyazo.com/7f0df6b2e1f43be6a266ba072a5ac6e4)
 
@@ -73,19 +73,19 @@
 
 5. [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array が最も多くデータが登録されているプラットホームであることがわかります。
 
-6. Series数"3855"をクリックすると、Filter に「platform: GPL570」が表示され、「Affymetrix Human Genome U133 Plus 2.0 Array」を用いた実験データのみが表示されます。
+6. Series数"3855"をクリックすると、Filter に "Platform: GPL570" が表示され、「Affymetrix Human Genome U133 Plus 2.0 Array」を用いた実験データのみが表示されます。
 
  [![Gyazo](http://i.gyazo.com/04945f061f2d38a3ba7c4954aa5a18f3.png)](http://gyazo.com/04945f061f2d38a3ba7c4954aa5a18f3)
 
-7. 今回は「アルコール性肝炎」に関連するデータを検索します。検索窓に「alcoholic hepatitis」を入力して、「Search」をクリックします。
+7. 今回は 『アルコール性肝炎』 に関連するデータを検索します。検索窓に "alcoholic hepatitis" を入力して、「Search」をクリックします。
 
  [![Gyazo](http://i.gyazo.com/1f7f7b8dd3a7f9f6ecdd5a032c0bec0f.png)](http://gyazo.com/1f7f7b8dd3a7f9f6ecdd5a032c0bec0f)
 
-8. GSE28619 - "Transcriptome Analysis Identifies Fn14, a TNF Superfamily Receptor Member, as a Therapeutic Target in Alcoholic Hepatitis"というデータセットが見つかりました。左端にある「GSE28619」をクリックすると、そのデータセットの詳細情報が閲覧できます。
+8. GSE28619 - Transcriptome Analysis Identifies Fn14, a TNF Superfamily Receptor Member, as a Therapeutic Target in Alcoholic Hepatitis というデータセットが見つかりました。左端にある「GSE28619」をクリックすると、そのデータセットの詳細情報が閲覧できます。
 
  [![Gyazo](http://i.gyazo.com/7944ef43a7d9e4ec1edcbbf2de63bbb4.png)](http://gyazo.com/7944ef43a7d9e4ec1edcbbf2de63bbb4)
 
-10. ページ下部の「Download family」の中にある「Series Matrix File(s)」をクリックすると正規化済みのデータのダウンロードリンクが表示されます。
+10. ページ下部の「Download family」の中にある「Series Matrix File(s)」をクリックすると、正規化済みのデータのダウンロードリンクが表示されます。
 
  [![Gyazo](http://i.gyazo.com/ccdb8f61750616ac60b0b9dac1950d75.png)](http://gyazo.com/ccdb8f61750616ac60b0b9dac1950d75)
 
@@ -116,11 +116,11 @@
 
  [![Gyazo](http://i.gyazo.com/020666a58df1903d5532f62ffd9cf5f7.png)](http://gyazo.com/020666a58df1903d5532f62ffd9cf5f7)
 
-3. このデータセットに含まれるサンプルの一覧が表示されます。列見出しをクリックすると各項目でソートできます。今回のデータセットが、健常者 7名・アルコール肝炎患者 15名から得られたサンプルであることがわかります。
+3. データセットに含まれるサンプルデータの一覧が表示されます。列見出しをクリックすると各項目でソートできます。このデータセットには、健常者 7名・アルコール肝炎患者 15名の肝臓から得られた22個のサンプルデータからなることがわかります。
 
  [![Gyazo](http://i.gyazo.com/ad82f7f81091ab7cf300fdba8819bf96.png)](http://gyazo.com/ad82f7f81091ab7cf300fdba8819bf96)
 
-4. 比較したいグループを設定します。「Define groups」をクリックして、それぞれのグループ名を入力します。今回は、健常者（Control）とアルコール肝炎患者（Alcoholic Hepatitis）のサンプルをそれぞれグループ化します。
+4. 比較したいグループを設定します。「Define groups」をクリックして、それぞれのグループ名を入力します。今回は、"Control" と "Alcoholic Hepatitis" をグループ名として、各サンプルをグループ化します。
 
  [![Gyazo](http://i.gyazo.com/c0ffdfee96f01a4f6bac24231fa35b7c.png)](http://gyazo.com/c0ffdfee96f01a4f6bac24231fa35b7c)
 
@@ -128,7 +128,7 @@
 
  [![Gyazo](http://i.gyazo.com/2b18becb49fedce34278863171cfccf6.png)](http://gyazo.com/2b18becb49fedce34278863171cfccf6)
 
-6. 「Samples」をクリックして、サンプル画面を閉じます。「Value distribution」タブを選択し、「View」をクリックすると各サンプルの発現分布を調べることができます。（※ GEO2R では、投稿された生のデータを用いて解析されます。ジョブの実行は時間がかかるので要注意！講師のPC画面で実演します。）
+6. 「Samples」をクリックして、サンプルデータの一覧画面を閉じます。「Value distribution」タブを選択し、「View」をクリックすると各サンプルの発現分布を調べることができます。（※ GEO2R では、投稿された生のデータを用いて解析されます。ジョブの実行は時間がかかるので要注意！）
 
  [![Gyazo](http://i.gyazo.com/092c364b3f1234f66fabea4c15083081.png)](http://gyazo.com/092c364b3f1234f66fabea4c15083081)
 
@@ -136,11 +136,11 @@
 
  [![Gyazo](http://i.gyazo.com/703e9741efbda2813cb4d6db5a478ebb.png)](http://gyazo.com/703e9741efbda2813cb4d6db5a478ebb)
 
-8. 「Export」 をクリックすると、箱ひげ図で与えられている値をまとめたタブ区切りテキストが表示されます。（※講師のみ）
+8. 「Export」 をクリックすると、箱ひげ図で与えられている値をまとめたタブ区切りテキストが表示されます。（※）
 
  [![Gyazo](http://i.gyazo.com/54d346c0f379392751bd7eaea880f947.png)](http://gyazo.com/54d346c0f379392751bd7eaea880f947)
 
-9. GEO2R タブに戻り、「Top 250」をクリックすると、選択したグループ間で各遺伝子の発現量に差があるかどうか統計解析されます。（※講師のみ）
+9. GEO2R タブに戻り、「Top 250」をクリックすると、選択したグループ間で各遺伝子の発現量に差があるかどうか統計解析されます。（※）
 
  [![Gyazo](http://i.gyazo.com/a366350fc4069c2a5f77bf2e5c01df4a.png)](http://gyazo.com/a366350fc4069c2a5f77bf2e5c01df4a)
 
@@ -150,13 +150,12 @@
 
 11. "P.Value" は元の P 値、"adj.P.Val" は多重検定の補正をかけた後の P 値です。有意性の評価は adj.P.Val に基づいています。 "t" は普通の t の標準偏差を全遺伝子の標準偏差を用いて調整したもの (moderated-t) です。普通の t より精度が上がっていますが、普通の t 分布に従うものとして扱えます。 "B" は2つのグループで発現量が異なっている対数オッズ値です。exp(B)/(1+exp(B)) の値が、発現量が異なっている確率です。"logFC" は、発現量の差が何倍であるかを2底の対数にしたものです。つまり値が 2 なら 4 倍の差を示しています。ここでの解析では発現量が対数で与えられている必要がありますが、元のデータでは対数になっていないことがあります。そのような場合デフォルトでは自動検出し、対数変換して計算してくれます。その上でこのような表示がされます。
 
-
-12. 行をクリックすると、その行の遺伝子の各サンプルでの発現量グラフが見られます。
-13. 今回は健常者・アルコール肝炎患者の間で最も差が大きいとされた遺伝子である AKR1B10（アルドケト還元酵素ファミリーの一つ）について見てみましょう。AKR1B10 は、アルコール肝炎患者で有意に発現が高いことがわかります。
+12. 各行をクリックすると、その行の遺伝子の各サンプルでの発現量グラフが見られます。
+13. 今回は健常者 vs アルコール肝炎患者の間で最も差が大きいとされた遺伝子である AKR1B10（アルドケト還元酵素ファミリーの一つ）について見てみましょう。AKR1B10 は、健常者と比較してアルコール肝炎患者で有意に発現が高いことがわかります。
 
   [![Gyazo](http://i.gyazo.com/ae49254bb7651c7a940526255add19ce.png)](http://gyazo.com/ae49254bb7651c7a940526255add19ce)
 
-14. また、2番目に差が大きいとされた遺伝子である SLC16A10（SLCトランスポーターの一つ）は、アルコール肝炎患者で有意に発現が低いことがわかります。
+14. また、2番目に発現差が大きいとされた遺伝子である SLC16A10（SLCトランスポーターの一つ）は、アルコール肝炎患者で有意に発現が低いことがわかります。
 
   [![Gyazo](http://i.gyazo.com/b956e24351811866ccdec210a91892b3.png)](http://gyazo.com/b956e24351811866ccdec210a91892b3)
 
@@ -164,7 +163,7 @@
 
  [![Gyazo](http://i.gyazo.com/cd38113a2f33785a697a77a2d89b1271.png)](http://gyazo.com/cd38113a2f33785a697a77a2d89b1271)
 
-16. 「Select columns」 をクリックすると、表示するカラムを変更できます。 "t-statistic"と"B-value" を消し "GO:Process" を追加してみましょう。設定を変更したら、「Set」をクリックします。
+16. 「Select columns」 をクリックすると、表示するカラムを変更できます。 "t-statistic" と "B-value" を消し、 "GO:Process" を追加してみましょう。設定を変更したら、「Set」をクリックします。
 
  [![Gyazo](http://i.gyazo.com/e542c7444cf0a59190f4b4fbf155ffd7.png)](http://gyazo.com/e542c7444cf0a59190f4b4fbf155ffd7)
 
