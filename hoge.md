@@ -259,7 +259,7 @@
 
   [![Gyazo](http://i.gyazo.com/02c93e0cb523a671ed2c4132308e7948.png)](http://gyazo.com/02c93e0cb523a671ed2c4132308e7948)
 
-11.  GOTERM_BP_ALL のチャートが表示されました。タイトル行をクリックするとソートできます。「Download File」をクリックすると、結果をテキストで表示できます。 
+11.  GOTERM_BP_ALL のチャートが表示されました。列見出しをクリックすると各項目でソートできます。「Download File」をクリックすると、結果をテキストで表示できます。 
 
   [![Gyazo](http://i.gyazo.com/c1dbf94268b2c67fee3f8754a6a9d706.png)](http://gyazo.com/c1dbf94268b2c67fee3f8754a6a9d706) 
  
