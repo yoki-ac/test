@@ -7,7 +7,11 @@
 - 学生時代の研究
  [![Gyazo](http://gyazo.com/a08eacbeae0b1068a0b4469ec3190d35.png)](http://gyazo.com/a08eacbeae0b1068a0b4469ec3190d35)
 
-- 公共データベースや遺伝子発現解析をするきっかけ・・・
+- さらに・・・
  [![Gyazo](http://gyazo.com/fdfadc8f4259fd828b0d62bbd139b759.png)](http://gyazo.com/fdfadc8f4259fd828b0d62bbd139b759)
 
+- モチベーション
+ - どんな遺伝子が発現変動しているのか知りたい
+ - その遺伝子が何者なのか知りたい
+ - 公共のデータベースにある遺伝子発現データと比較したい
 
