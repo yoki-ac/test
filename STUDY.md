@@ -3,6 +3,11 @@
 名前：沖 嘉尚 （オキ ヨシナオ）
 
 仕事：動物細胞を弄っている
- 
+
+- 学生時代の研究
  [![Gyazo](http://gyazo.com/a08eacbeae0b1068a0b4469ec3190d35.png)](http://gyazo.com/a08eacbeae0b1068a0b4469ec3190d35)
+
+- 公共データベースや遺伝子発現解析をするきっかけ・・・
+ [![Gyazo](http://gyazo.com/fdfadc8f4259fd828b0d62bbd139b759.png)](http://gyazo.com/fdfadc8f4259fd828b0d62bbd139b759)
+
 
