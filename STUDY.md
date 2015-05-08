@@ -4,5 +4,5 @@
 
 仕事：動物細胞を弄っている
  
- [![Gyazo](http://gyazo.com/dccc5c780e364a1490e3014738ef54a7.png)](http://gyazo.com/dccc5c780e364a1490e3014738ef54a7)
+ [![Gyazo](http://gyazo.com/a08eacbeae0b1068a0b4469ec3190d35.png)](http://gyazo.com/a08eacbeae0b1068a0b4469ec3190d35)
 
