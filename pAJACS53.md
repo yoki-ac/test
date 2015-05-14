@@ -87,10 +87,11 @@
 
  [![Gyazo](http://i.gyazo.com/7944ef43a7d9e4ec1edcbbf2de63bbb4.png)](http://gyazo.com/7944ef43a7d9e4ec1edcbbf2de63bbb4)
 
-10. ページ下部の「Download family」の中にある「Series Matrix File(s)」をクリックすると、正規化済みのデータのダウンロードリンクが表示されます。
+9. GSE28619のページが表示されました。
 
  [![Gyazo](http://i.gyazo.com/ccdb8f61750616ac60b0b9dac1950d75.png)](http://gyazo.com/ccdb8f61750616ac60b0b9dac1950d75)
 
+10. ページ下部の「Download family」の中にある「Series Matrix File(s)」をクリックすると、正規化済みのデータのダウンロードリンクが表示されます。
 11. ページ最下部の「Supplementary file」にあるリンクから生データをダウンロードすることができます。
 
  [![Gyazo](http://i.gyazo.com/4ef19d932765325d496ffaaa7b13150e.png)](http://gyazo.com/4ef19d932765325d496ffaaa7b13150e)
