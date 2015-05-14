@@ -176,7 +176,7 @@
 
 18. 「Save all results」 をクリックすると、結果をテキストで表示・保存できます。
 
- [![Gyazo](http://i.gyazo.com/62d32077159a1e775ccd6e1e73ea82f7.png)](http://gyazo.com/62d32077159a1e775ccd6e1e73ea82f7)
+ [![Gyazo](http://i.gyazo.com/36519a703f95ba99c58956785a5af499.png)](http://gyazo.com/36519a703f95ba99c58956785a5af499)
 
 19. Options タブをクリックすると、いくつかの設定を変更できます。左の項目は多重検定の補正法の選択です。デフォルトでは  "Benjamini & Hochberg" の方法が使われています。中央はデータの対数をとるかどうかの選択です。デフォルトでは自動検出で対数になります。右の項目はプラットフォームの注釈の選択です。"NCBI generated" がある場合はそれの方が信頼できます。
 
