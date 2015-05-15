@@ -309,7 +309,7 @@
 - 実験によって得られた数十～数千の遺伝子群の転写制御因子予測ツール
 - [http://www.tfacts.org/](http://www.tfacts.org/)
 - [TRED](http://www.tfacts.org/)、[TRRD](http://wwwmgs.bionet.nsc.ru/mgs/gnw/trrd/)、[RAZAR](http://www.pazar.info/)、[NFIregulomeDB](http://nfiregulome.ccr.buffalo.edu/basicquery1.0.php)などのデータベースから得られた遺伝子リストに加えて、Pubmedの文献情報から得られたTFactS独自の遺伝子リストをベースに解析します。
-- 遺伝子の転写因子結合配列情報からではなく、遺伝子リストの情報からそれら遺伝子群を制御する転写因子のを予測が可能です。
+- 遺伝子の転写因子結合配列情報からではなく、遺伝子リストの情報からそれら遺伝子群を制御する転写因子の予測が可能です。
 
 ##### マイクロアレイデータの準備
 - サンプルデータは【実習3】と同様に、【実習2】で解析した遺伝子発現データから得られた遺伝子リストを用います。TFactS は Gene Symbol を使用するので、probe ID を Gene Symbol に変換した遺伝子リストを準備します。 
@@ -339,7 +339,7 @@
   [![Gyazo](http://gyazo.com/ad3445f81e03348527b5c434b873f712.png)](http://gyazo.com/ad3445f81e03348527b5c434b873f712)
   
 6. Input Data では、Analysis Name と Gene List を記入します。
-7. Analysis Name に "AJACS53（なんでも良い）"と記入し、UP genes と Down genes には UP_genes.txt と DOWN_genes.txt の遺伝子リストの Gene symbol をそれぞれコピペします。
+7. Analysis Name に "AJACS53（なんでも良い）"と記入し、UP genes と Down genes には UP_genes.txt と DOWN_genes.txt の遺伝子リストの Gene Symbol をそれぞれコピペします。
 8. Negative control と Thresholds はパラメーターを設定します。…今回は初期設定の条件で実行します。
 9. 「GO」 をクリックすると解析が実行されます。（※）
 
