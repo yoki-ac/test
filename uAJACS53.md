@@ -73,7 +73,7 @@
 
  [![Gyazo](http://i.gyazo.com/7f0df6b2e1f43be6a266ba072a5ac6e4.png)](http://gyazo.com/7f0df6b2e1f43be6a266ba072a5ac6e4)
 
-4. Affymetrixのヒトのマイクロアレイの検索結果が表示されます。列見出しをクリックすると各項目でソートできます。表の中央にある「Samples」あるいは「Series」を2回クリックすると、登録されている実験データが多い順にソートされます。
+4. Affymetrixのヒトのマイクロアレイの検索結果が表示されます。列見出しをクリックすると、各項目でソートできます。表の中央にある「Samples」あるいは「Series」を2回クリックすると、登録されている実験データが多い順にソートされます。
 
  [![Gyazo](http://i.gyazo.com/7465f25b115b92b1b9195267b12f81b4.png)](http://gyazo.com/7465f25b115b92b1b9195267b12f81b4)
 
@@ -123,7 +123,7 @@
 
  [![Gyazo](http://i.gyazo.com/020666a58df1903d5532f62ffd9cf5f7.png)](http://gyazo.com/020666a58df1903d5532f62ffd9cf5f7)
 
-3. データセットに含まれるサンプルデータの一覧が表示されます。列見出しをクリックすると各項目でソートできます。このデータセットには、健常者 7名・アルコール性肝炎患者 15名の肝臓から得られた22個のサンプルデータからなることがわかります。
+3. データセットに含まれるサンプルデータの一覧が表示されます。列見出しをクリックすると、各項目でソートできます。このデータセットには、健常者 7名・アルコール性肝炎患者 15名の肝臓から得られた22個のサンプルデータからなることがわかります。
 
  [![Gyazo](http://i.gyazo.com/ad82f7f81091ab7cf300fdba8819bf96.png)](http://gyazo.com/ad82f7f81091ab7cf300fdba8819bf96)
 
@@ -239,7 +239,7 @@
   [![Gyazo](http://i.gyazo.com/6805eef66646ac24747a172d511afab6.png)](http://gyazo.com/6805eef66646ac24747a172d511afab6)
 
 3. リストのIDの種類を選択します。 … 今回は、"AFFYMETRIX_3PRIME_IVT_ID" と "Gene List" を選択します。
-4. Submit List をクリックするとリストが読み込まれます。
+4. Submit List をクリックすると、リストが読み込まれます。
 
   [![Gyazo](http://i.gyazo.com/2b320b921e5c4854da042a74a93ebc8e.png)](http://gyazo.com/2b320b921e5c4854da042a74a93ebc8e)
 
@@ -261,11 +261,11 @@
 
   [![Gyazo](http://i.gyazo.com/f8dea1e2599210e3968e6d950426b649.png)](http://gyazo.com/f8dea1e2599210e3968e6d950426b649)
 
-10. 今回は、GOTERM_BP_ALL（BP = Biological Process）に注目します。「Chart」をクリックすると結果がポップアップされます。 
+10. 今回は、GOTERM_BP_ALL（BP = Biological Process）に注目します。「Chart」をクリックすると、結果がポップアップされます。 
 
   [![Gyazo](http://i.gyazo.com/02c93e0cb523a671ed2c4132308e7948.png)](http://gyazo.com/02c93e0cb523a671ed2c4132308e7948)
 
-11.  GOTERM_BP_ALL のチャートが表示されました。列見出しをクリックすると各項目でソートできます。「Download File」をクリックすると、結果をテキストで表示できます。 
+11.  GOTERM_BP_ALL のチャートが表示されました。列見出しをクリックすると、各項目でソートできます。「Download File」をクリックすると、結果をテキストで表示できます。 
 
   [![Gyazo](http://i.gyazo.com/c1dbf94268b2c67fee3f8754a6a9d706.png)](http://gyazo.com/c1dbf94268b2c67fee3f8754a6a9d706) 
  
@@ -341,7 +341,7 @@
 6. Input Data では、Analysis Name と Gene List を記入します。
 7. Analysis Name に "AJACS53（なんでも良い）"と記入し、UP genes と Down genes には UP_genes.txt と DOWN_genes.txt の遺伝子リストの Gene Symbol をそれぞれコピペします。
 8. Negative control と Thresholds はパラメーターを設定します。…今回は初期設定のまま実行します。
-9. 「GO」 をクリックすると解析が実行されます。（※）
+9. 「GO」 をクリックすると、解析が実行されます。（※）
 
   [![Gyazo](http://gyazo.com/2fac8f60f1f924ca4ccd168b7c6e0d14.png)](http://gyazo.com/2fac8f60f1f924ca4ccd168b7c6e0d14)
   
@@ -350,12 +350,12 @@
   [![Gyazo](http://gyazo.com/30484a2b45f3a30d3dbe9d1c06db2c6a.png)](http://gyazo.com/30484a2b45f3a30d3dbe9d1c06db2c6a)
   
 11. ①「Results (P-value Tables)」をクリックします。
-12. アップロードしたリストの遺伝子群を制御すると、予測された転写因子が Regulated Transcription Factors として表示されます。
+12. アップロードしたリストの遺伝子群を制御すると予測された転写因子が Regulated Transcription Factors として表示されます。
 
   [![Gyazo](http://gyazo.com/40168830813c09c4ed42b66d723ca35e.png)](http://gyazo.com/40168830813c09c4ed42b66d723ca35e)
   
 13. ②「Submitted Lists and the corresponding TFs」をクリックします。
-14. アップロードしたリストの遺伝子群について、個々の遺伝子に対応する転写因子のリストが Gene List UP と Gene List DOWN としてそれぞれ表示されます。
+14. アップロードした遺伝子リストについて、個々の遺伝子に対応する転写因子が Gene List UP と Gene List DOWN としてそれぞれ表示されます。
  - UP_genes
 
   [![Gyazo](http://gyazo.com/fa95f9de141e888939bc5127d554b07e.png)](http://gyazo.com/fa95f9de141e888939bc5127d554b07e)
