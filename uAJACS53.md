@@ -324,11 +324,31 @@
 
 ####【実習4】TFactSを使って、遺伝子群を制御する転写因子を予測する
 
-1. 画面右側の Browse Content から「Platforms」を選択します。
-
-
-
-
+1. 画面中央の「ENTER」をクリックします。
+  [![Gyazo](.png)]()
+2. 画面左側バーで、「START Data Analysis」をクリックします。
+  [![Gyazo](.png)]()
+3. Catalogue Selection を選択します。
+4. Sign-Less catalogue は Respressed Transcription Factors (TF)、Sign-Sensitive catalogue は activated TF と  Respressed TF を解析します。…今回は "Sign-Less" を選択します。
+5. TFactS Mode では、"BatchTFactS"（遺伝子リストをzipファイルで一括アップロード）と "TFactS (Simple Mode)"（遺伝子リストをコピペしてアップロード） が選択できます。…今回は "TFactS (Simple Mode)" を選択します
+4. Input Data では、Analysis Name と Gene List を記入します。
+5. Analysis Name に "hoge（なんでもいい）"と記入し、UP genes と Down genes には UP_genes.txt と DOWN_genes.txt の遺伝子リストの Gene symbol をそれぞれコピペします。
+5. Negative control と Thresholds はパラメーターを設定します。…今回は初期設定の条件で実行します。
+6. 「GO」 をクリックすると解析が実行されます。（※）
+  [![Gyazo](.png)]()
+7. 解析結果のリンクが表示されました。
+  [![Gyazo](.png)]()
+8. ①「Results (P-value Tables)」をクリックします。
+9. アップロードしたリストの遺伝子群を制御すると予測された転写因子が Regulated Transcription Factors として表示されます。
+  [![Gyazo](.png)]()
+10. ②「Submitted Lists and the corresponding TFs」をクリックします。
+11. アップロードしたリストの遺伝子群について、個々の遺伝子に対応する転写因子のリストが Gene List UP と Gene List DOWN としてそれぞれ表示されます。
+ - UP_genes
+  [![Gyazo](.png)]()
+ - DOWN_genes
+  [![Gyazo](.png)]()
+12. ③「Export results」 をクリックすると、すべての解析結果がダウンロードできます。
+13. Sign-Less catalogue で得られた Respressed TFs の結果を踏まえ、 Sign-Sensitive catalogue で activated TF と  Respressed TF も解析して、どのような違いがあるのか比較してみましょう。
 
 ----
 
