@@ -364,7 +364,7 @@
 
   [![Gyazo](http://gyazo.com/75bff46b0d82ddd42ed73836934e255f.png)](http://gyazo.com/75bff46b0d82ddd42ed73836934e255f)
   
-15. ③「Export results」 をクリックすると、すべての解析結果がダウンロードできます。
+15. ③「Export results」 をクリックすると、すべての解析結果がzipファイルでダウンロードできます。ファイル名は Analysis Name で設定した "hoge" になります。
 16. Sign-Less catalogue で得られた Respressed TFs の結果を踏まえ、 Sign-Sensitive catalogue で activated TF と  Respressed TF も解析して、どのような違いがあるのか比較してみましょう。
 
 ----
