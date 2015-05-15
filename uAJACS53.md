@@ -234,7 +234,7 @@
 
   [![Gyazo](http://i.gyazo.com/dd857b29d9b70382ad81c314a5dbbed8.png)](http://gyazo.com/dd857b29d9b70382ad81c314a5dbbed8)
 
-2. 画面左側バーで、「健常者＞AH患者_遺伝子リスト」のprobe IDをコピペ or ファイルを選択します。
+2. 画面左側バーで、「健常者＞AH患者_遺伝子リスト」のプローブ IDをコピペ or ファイルを選択します。
 
   [![Gyazo](http://i.gyazo.com/6805eef66646ac24747a172d511afab6.png)](http://gyazo.com/6805eef66646ac24747a172d511afab6)
 
@@ -312,7 +312,7 @@
 - 遺伝子の転写因子結合配列情報からではなく、遺伝子リストの情報からそれら遺伝子群を制御する転写因子の予測が可能です。
 
 ##### マイクロアレイデータの準備
-- サンプルデータは【実習3】と同様に、【実習2】で解析した遺伝子発現データから得られた遺伝子リストを用います。TFactS は Gene Symbol を使用するので、probe ID を Gene Symbol に変換した遺伝子リストを準備します。 
+- サンプルデータは【実習3】と同様に、【実習2】で解析した遺伝子発現データから得られた遺伝子リストを用います。TFactS は Gene Symbol を使用するので、プローブ ID を Gene Symbol に変換した遺伝子リストを準備します。 
 
      → 「健常者＞AH患者_遺伝子リスト」[DOWN_genes.txt](https://github.com/yoki-ac/test/blob/master/TFactS_DOWN_genes.txt) 
      
