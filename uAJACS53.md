@@ -339,7 +339,7 @@
   [![Gyazo](http://gyazo.com/ad3445f81e03348527b5c434b873f712.png)](http://gyazo.com/ad3445f81e03348527b5c434b873f712)
   
 6. Input Data では、Analysis Name と Gene List を記入します。
-7. Analysis Name に "hoge（なんでもいい）"と記入し、UP genes と Down genes には UP_genes.txt と DOWN_genes.txt の遺伝子リストの Gene symbol をそれぞれコピペします。
+7. Analysis Name に "AJACS53（なんでも良い）"と記入し、UP genes と Down genes には UP_genes.txt と DOWN_genes.txt の遺伝子リストの Gene symbol をそれぞれコピペします。
 8. Negative control と Thresholds はパラメーターを設定します。…今回は初期設定の条件で実行します。
 9. 「GO」 をクリックすると解析が実行されます。（※）
 
@@ -364,7 +364,7 @@
 
   [![Gyazo](http://gyazo.com/75bff46b0d82ddd42ed73836934e255f.png)](http://gyazo.com/75bff46b0d82ddd42ed73836934e255f)
   
-15. ③「Export results」 をクリックすると、すべての解析結果がzipファイルでダウンロードできます。ファイル名は Analysis Name で設定した "hoge" になります。
+15. ③「Export results」 をクリックすると、すべての解析結果がzipファイルでダウンロードできます。ファイル名は Analysis Name で設定した "AJACS53" になります。
 16. Sign-Less catalogue で得られた Regulated TFs の結果を踏まえ、 Sign-Sensitive catalogue で activated TF と  Repressed TF も解析して、どのような違いがあるのか比較してみましょう。
 
 ----
