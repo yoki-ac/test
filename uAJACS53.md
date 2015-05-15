@@ -333,7 +333,7 @@
   [![Gyazo](http://gyazo.com/50c2d16017822f55f4bb02904f44e8be.png)](http://gyazo.com/50c2d16017822f55f4bb02904f44e8be)
   
 3. Catalogue Selection を選択します。
-4. Sign-Less catalogue は Repressed Transcription Factors (TF)、Sign-Sensitive catalogue は activated TF と  Repressed TF を解析します。…今回は "Sign-Less" を選択します。
+4. Sign-Less catalogue は Regulated Transcription Factors (TF)、Sign-Sensitive catalogue は activated TF と  Repressed TF を解析します。…今回は "Sign-Less" を選択します。
 5. TFactS Mode では、"BatchTFactS"（遺伝子リストをzipファイルで一括アップロード）と "TFactS (Simple Mode)"（遺伝子リストをコピペしてアップロード） が選択できます。…今回は "TFactS (Simple Mode)" を選択します。
 
   [![Gyazo](http://gyazo.com/ad3445f81e03348527b5c434b873f712.png)](http://gyazo.com/ad3445f81e03348527b5c434b873f712)
@@ -365,7 +365,7 @@
   [![Gyazo](http://gyazo.com/75bff46b0d82ddd42ed73836934e255f.png)](http://gyazo.com/75bff46b0d82ddd42ed73836934e255f)
   
 15. ③「Export results」 をクリックすると、すべての解析結果がzipファイルでダウンロードできます。ファイル名は Analysis Name で設定した "hoge" になります。
-16. Sign-Less catalogue で得られた Repressed TFs の結果を踏まえ、 Sign-Sensitive catalogue で activated TF と  Repressed TF も解析して、どのような違いがあるのか比較してみましょう。
+16. Sign-Less catalogue で得られた Regulated TFs の結果を踏まえ、 Sign-Sensitive catalogue で activated TF と  Repressed TF も解析して、どのような違いがあるのか比較してみましょう。
 
 ----
 
