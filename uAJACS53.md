@@ -310,45 +310,62 @@
 - [http://www.tfacts.org/](http://www.tfacts.org/)
 - [TRED](http://www.tfacts.org/)、[TRRD](http://wwwmgs.bionet.nsc.ru/mgs/gnw/trrd/)、[RAZAR](http://www.pazar.info/)、[NFIregulomeDB](http://nfiregulome.ccr.buffalo.edu/basicquery1.0.php)などのデータベースから得られた遺伝子リストに加えて、Pubmedの文献情報から得られたTFactS独自の遺伝子リストをベースに解析します。
 - 遺伝子の転写因子結合配列情報からではなく、遺伝子リストの情報からそれら遺伝子群を制御する転写因子のを予測が可能です。
-- 
-##### マイクロアレイデータの準備
-- サンプルデータとして、【実習2】で解析した遺伝子発現データを用います。このデータは、多重比較法（Benjamini & Hochberg）を指定して、有意水準1％未満かつ2倍以上発現差のあった遺伝子群のリストです。 
 
-     → 「健常者＞AH患者_遺伝子リスト」[DOWN_genes.txt](https://github.com/yoki-ac/AJACS53/blob/patch-3/GEO2R_Ctrl.txt) 
+##### マイクロアレイデータの準備
+- サンプルデータは【実習3】と同様に、【実習2】で解析した遺伝子発現データから得られた遺伝子リストを用います。TFactS は Gene Symbol を使用するので、probe ID を Gene Symbol に変換した遺伝子リストを準備します。 
+
+     → 「健常者＞AH患者_遺伝子リスト」[DOWN_genes.txt](https://github.com/yoki-ac/test/blob/master/TFactS_DOWN_genes.txt) 
      
-     → 「AH患者＞健常者_遺伝子リスト」[UP_genes.txt](https://github.com/yoki-ac/AJACS53/blob/patch-3/GEO2R_AH.txt) 
+     → 「AH患者＞健常者_遺伝子リスト」[UP_genes.txt](https://github.com/yoki-ac/test/blob/master/TFactS_UP_genes.txt) 
       
    （右クリックして「新しいタブで開く」もしくは「名前を付けてリンク先を保存」してください。）
   
-- このデータから、どのような転写因子によって発現制御されているのかをTFactSを使って予測してみましょう！  
+- このデータから、どのような転写因子によって発現制御されているのかを TFactS を使って予測してみましょう！  
 
 ####【実習4】TFactSを使って、遺伝子群を制御する転写因子を予測する
 
 1. 画面中央の「ENTER」をクリックします。
-  [![Gyazo](.png)]()
+
+  [![Gyazo](http://gyazo.com/784aac10a19fb747ff68d9a4abc7ea89.png)](http://gyazo.com/784aac10a19fb747ff68d9a4abc7ea89)
+  
 2. 画面左側バーで、「START Data Analysis」をクリックします。
-  [![Gyazo](.png)]()
+
+  [![Gyazo](http://gyazo.com/50c2d16017822f55f4bb02904f44e8be.png)](http://gyazo.com/50c2d16017822f55f4bb02904f44e8be)
+  
 3. Catalogue Selection を選択します。
 4. Sign-Less catalogue は Respressed Transcription Factors (TF)、Sign-Sensitive catalogue は activated TF と  Respressed TF を解析します。…今回は "Sign-Less" を選択します。
-5. TFactS Mode では、"BatchTFactS"（遺伝子リストをzipファイルで一括アップロード）と "TFactS (Simple Mode)"（遺伝子リストをコピペしてアップロード） が選択できます。…今回は "TFactS (Simple Mode)" を選択します
-4. Input Data では、Analysis Name と Gene List を記入します。
-5. Analysis Name に "hoge（なんでもいい）"と記入し、UP genes と Down genes には UP_genes.txt と DOWN_genes.txt の遺伝子リストの Gene symbol をそれぞれコピペします。
-5. Negative control と Thresholds はパラメーターを設定します。…今回は初期設定の条件で実行します。
-6. 「GO」 をクリックすると解析が実行されます。（※）
-  [![Gyazo](.png)]()
-7. 解析結果のリンクが表示されました。
-  [![Gyazo](.png)]()
-8. ①「Results (P-value Tables)」をクリックします。
-9. アップロードしたリストの遺伝子群を制御すると予測された転写因子が Regulated Transcription Factors として表示されます。
-  [![Gyazo](.png)]()
-10. ②「Submitted Lists and the corresponding TFs」をクリックします。
-11. アップロードしたリストの遺伝子群について、個々の遺伝子に対応する転写因子のリストが Gene List UP と Gene List DOWN としてそれぞれ表示されます。
+5. TFactS Mode では、"BatchTFactS"（遺伝子リストをzipファイルで一括アップロード）と "TFactS (Simple Mode)"（遺伝子リストをコピペしてアップロード） が選択できます。…今回は "TFactS (Simple Mode)" を選択します。
+
+  [![Gyazo](http://gyazo.com/ad3445f81e03348527b5c434b873f712.png)](http://gyazo.com/ad3445f81e03348527b5c434b873f712)
+  
+6. Input Data では、Analysis Name と Gene List を記入します。
+7. Analysis Name に "hoge（なんでもいい）"と記入し、UP genes と Down genes には UP_genes.txt と DOWN_genes.txt の遺伝子リストの Gene symbol をそれぞれコピペします。
+8. Negative control と Thresholds はパラメーターを設定します。…今回は初期設定の条件で実行します。
+9. 「GO」 をクリックすると解析が実行されます。（※）
+
+  [![Gyazo](http://gyazo.com/2fac8f60f1f924ca4ccd168b7c6e0d14.png)](http://gyazo.com/2fac8f60f1f924ca4ccd168b7c6e0d14)
+  
+10. 解析結果のリンクが表示されました。
+
+  [![Gyazo](http://gyazo.com/30484a2b45f3a30d3dbe9d1c06db2c6a.png)](http://gyazo.com/30484a2b45f3a30d3dbe9d1c06db2c6a)
+  
+11. ①「Results (P-value Tables)」をクリックします。
+12. アップロードしたリストの遺伝子群を制御すると予測された転写因子が Regulated Transcription Factors として表示されます。
+
+  [![Gyazo](http://gyazo.com/40168830813c09c4ed42b66d723ca35e.png)](http://gyazo.com/40168830813c09c4ed42b66d723ca35e)
+  
+13. ②「Submitted Lists and the corresponding TFs」をクリックします。
+14. アップロードしたリストの遺伝子群について、個々の遺伝子に対応する転写因子のリストが Gene List UP と Gene List DOWN としてそれぞれ表示されます。
  - UP_genes
-  [![Gyazo](.png)]()
+
+  [![Gyazo](http://gyazo.com/fa95f9de141e888939bc5127d554b07e.png)](http://gyazo.com/fa95f9de141e888939bc5127d554b07e)
+  
  - DOWN_genes
-  [![Gyazo](.png)]()
-12. ③「Export results」 をクリックすると、すべての解析結果がダウンロードできます。
-13. Sign-Less catalogue で得られた Respressed TFs の結果を踏まえ、 Sign-Sensitive catalogue で activated TF と  Respressed TF も解析して、どのような違いがあるのか比較してみましょう。
+
+  [![Gyazo](http://gyazo.com/75bff46b0d82ddd42ed73836934e255f.png)](http://gyazo.com/75bff46b0d82ddd42ed73836934e255f)
+  
+15. ③「Export results」 をクリックすると、すべての解析結果がダウンロードできます。
+16. Sign-Less catalogue で得られた Respressed TFs の結果を踏まえ、 Sign-Sensitive catalogue で activated TF と  Respressed TF も解析して、どのような違いがあるのか比較してみましょう。
 
 ----
 
