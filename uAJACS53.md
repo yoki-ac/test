@@ -340,7 +340,7 @@
   
 6. Input Data では、Analysis Name と Gene List を記入します。
 7. Analysis Name に "AJACS53（なんでも良い）"と記入し、UP genes と Down genes には UP_genes.txt と DOWN_genes.txt の遺伝子リストの Gene Symbol をそれぞれコピペします。
-8. Negative control と Thresholds はパラメーターを設定します。…今回は初期設定の条件で実行します。
+8. Negative control と Thresholds はパラメーターを設定します。…今回は初期設定のまま実行します。
 9. 「GO」 をクリックすると解析が実行されます。（※）
 
   [![Gyazo](http://gyazo.com/2fac8f60f1f924ca4ccd168b7c6e0d14.png)](http://gyazo.com/2fac8f60f1f924ca4ccd168b7c6e0d14)
@@ -350,7 +350,7 @@
   [![Gyazo](http://gyazo.com/30484a2b45f3a30d3dbe9d1c06db2c6a.png)](http://gyazo.com/30484a2b45f3a30d3dbe9d1c06db2c6a)
   
 11. ①「Results (P-value Tables)」をクリックします。
-12. アップロードしたリストの遺伝子群を制御すると予測された転写因子が Regulated Transcription Factors として表示されます。
+12. アップロードしたリストの遺伝子群を制御すると、予測された転写因子が Regulated Transcription Factors として表示されます。
 
   [![Gyazo](http://gyazo.com/40168830813c09c4ed42b66d723ca35e.png)](http://gyazo.com/40168830813c09c4ed42b66d723ca35e)
   
