@@ -47,7 +47,7 @@
 
 ## 公共の遺伝子発現データベース NCBI Gene Expression Omnibus（GEO）の使い方
 ### [GEO](http://www.ncbi.nlm.nih.gov/geo/)
-- NCBIが提供・維持管理している世界最大の遺伝子発現情報（マイクロアレイ）のデータベース
+- NCBIが提供・維持管理している世界最大の遺伝子発現情報（主にマイクロアレイ）のデータベース
 - [http://www.ncbi.nlm.nih.gov/geo/](http://www.ncbi.nlm.nih.gov/geo/)
 - 自分の興味のある発現データセットや遺伝子プロファイルを検索することができるだけでなく、それらの生データを自由にダウンロードすることが可能です。
 
